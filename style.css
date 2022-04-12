@@ -213,6 +213,10 @@ $mobile:480px */
     }
     #about{
         margin-top: 10%;
+        width:90%;
+    }
+    #projects, #freelancing, #contact{
+        width:90%;
     }
     #projects  li{
         width:100%;
