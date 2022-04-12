@@ -203,7 +203,7 @@ $mobile:480px */
 }
 @media screen and (max-width:480px){
     body{
-        background:no-repeat center/150% url(default.png) fixed;
+        background:repeat center url(default.png) fixed;
         background-color: black;
     }
     section{
