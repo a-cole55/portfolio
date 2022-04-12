@@ -115,6 +115,8 @@ strong{
     letter-spacing: 0;
     text-decoration: underline;
     padding-right: 0.5%;
+    color:white;
+    text-shadow: black 1px 2px 4px;
 }
 #contactHeader{
     background-color: #E8E907;
