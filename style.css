@@ -8,23 +8,29 @@ html{
     font-family: 'Bebas Neue', cursive;
 }
 body{
-    /* background:no-repeat center url(bg2.png) fixed; */
+    background:no-repeat center url(bg2.png) fixed;
     background-color: black;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+div{
+    height:20em;
+}
+div:first-child{
+    height:60em;
+}
 section{
     width:80%;
     background-color:#E8E907;
-    margin-top: 40%;
+    /* margin-top: 40%; */
     opacity:.98;
     padding: 5%;
 }
 #about{
-    margin-top: 60%;
+    /* margin-top: 60%; */
     background-color: white;
     padding:7% 10%;
 
@@ -96,7 +102,7 @@ p{
     background-color: #E8E907;
     width:100%;
     margin:0;
-    padding:4%;
+    padding:5% 10%;
 }
 .background1{
     background-color: #E8E907;
