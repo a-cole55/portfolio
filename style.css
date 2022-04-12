@@ -116,8 +116,8 @@ strong{
     letter-spacing: 0;
     text-decoration: underline;
     padding-right: 0.5%;
-    color:white;
-    text-shadow: black 1px 2px 4px;
+    color:black;
+    text-shadow:white 1px 2px 4px;
 }
 #contactHeader{
     background-color: #E8E907;
@@ -188,7 +188,7 @@ strong{
 /* $laptop:1020px;
 $tablet:724px;
 $mobile:480px */
-@media screen and (max-width:730px){
+@media all and (max-width:730px){
     section{
         width:80%;
         margin-top: 50%;
@@ -201,7 +201,7 @@ $mobile:480px */
         background-color: #E8E907;
     }
 }
-@media screen and (max-width:480px){
+@media all and (max-width:480px){
     body{
         background-image: none;
         background-color: black;
