@@ -8,23 +8,25 @@ html{
     font-family: 'Bebas Neue', cursive;
 }
 body{
-    background:no-repeat center/115% url(bglogo.png) fixed;
+    background:no-repeat center url(bg2.png) fixed;
     background-color: black;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 section{
-    width:90%;
+    width:80%;
     background-color:#E8E907;
-    margin-top: 15%;
+    margin-top: 40%;
     opacity:.98;
     padding: 5%;
 }
 #about{
-    margin-top: 50%;
+    margin-top: 60%;
     background-color: white;
+    padding:7% 10%;
 
 }
 h1{
@@ -39,7 +41,7 @@ p{
 
 }
 #profilePic{
-    width:55%;
+    width:30%;
     border-radius: 200px;
     float:right;
     margin-left: 2%;
@@ -64,6 +66,9 @@ p{
     justify-content: space-between;
     margin-top: 4%;
 }
+.features img{
+    height: 214px;
+}
 #projectsTitle{
     margin-left: 2%;
     background-color: #E8E907;
@@ -77,9 +82,9 @@ p{
 
 .pop-out:hover
 {
-	-ms-transform: scale(2, 2);
-	-webkit-transform: scale(2, 2);
-	transform: scale(2, 2);
+	-ms-transform: scale(1.5, 1.5);
+	-webkit-transform: scale(1.5, 1.5);
+	transform: scale(1.5, 1.5);
 }
 #consultingTitle{
     background-color: #E8E907;
@@ -93,12 +98,18 @@ p{
     margin:0;
     padding:4%;
 }
+.background1{
+    background-color: #E8E907;
+    width:100%;
+    margin:0;
+    padding:10%;
+}
 #freelancing{
     padding:2%;
     background-color: white;
 }
 #freelancing p{
-    font: 1.7rem 'Open Sans', sans-serif;
+    font: 1.7rem;
     font-weight: 100;
     margin:0 0 1% 0;
 }
