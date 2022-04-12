@@ -9,6 +9,7 @@ html{
 }
 body{
     background:no-repeat center/115% url(bglogo.png) fixed;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,4 +184,60 @@ strong{
 	-ms-transform: scale(1.5, 1.5);
 	-webkit-transform: scale(1.5, 1.5);
 	transform: scale(1.5, 1.5);
+}
+/* $laptop:1020px;
+$tablet:724px;
+$mobile:480px */
+@media screen and (max-width:730px){
+    section{
+        width:80%;
+        margin-top: 50%;
+        padding: 5%;
+    }
+    #freelancing p{
+        font:1.9rem 'Bebas Neue', cursive;
+    }
+    #projects, #freelancing{
+        background-color: #E8E907;
+    }
+}
+@media screen and (max-width:480px){
+    body{
+        background:no-repeat center/150% url(bglogo.png) fixed;
+        background-color: black;
+    }
+    section{
+        width:100%;
+        margin-top: 60%;
+        padding: 5%;
+    }
+    #about{
+        margin-top: 10%;
+    }
+    #projects  li{
+        width:100%;
+        margin:0 0 5% 0;
+    }
+    .features{
+        list-style-type: none;
+        padding:0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pop-out
+        {
+        	transition: transform 1s;
+        }
+
+        .pop-out:hover
+        {
+        	-ms-transform: scale(1, 1);
+        	-webkit-transform: scale(1, 1);
+        	transform: scale(1, 1);
+        }
+    h1{
+        font-size: 3rem;
+    }
 }
