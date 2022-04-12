@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    background:no-repeat center/115% url(bglogo.png) fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width:50%;
+    background-color:#E8E907;
+    margin-top: 15%;
+    opacity:.98;
+    padding: 5%;
+}
+#about{
+    margin-top: 50%;
+    background-color: white;
+
+}
+h1{
+    font: 4rem 'Open Sans', sans-serif;
+    font-weight: 100;
+    /* padding-left: 20%; */
+}
+p{
+ font-size: 2rem;
+ line-height: 1.5em;
+ margin-top: 5%;
+
+}
+#profilePic{
+    width:55%;
+    border-radius: 200px;
+    float:right;
+    margin-left: 2%;
+}
+#projects{
+    padding:2%;
+    background-color: white;
+}
+.project{
+    width:100%;
+}
+#projects  li{
+    width:49%;
+    margin:0 0 5% 0;
+}
+.features{
+    list-style-type: none;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+#projectsTitle{
+    margin-left: 2%;
+    background-color: #E8E907;
+    width: 23%;
+    text-shadow: white 1px 2px;
+}
+.pop-out
+{
+	transition: transform 1s;
+}
+
+.pop-out:hover
+{
+	-ms-transform: scale(2, 2);
+	-webkit-transform: scale(2, 2);
+	transform: scale(2, 2);
+}
+#consultingTitle{
+    background-color: #E8E907;
+    width: 60%;
+    text-shadow: white 1px 2px;
+    margin-bottom: 2%;
+}
+.background{
+    background-color: #E8E907;
+    width:100%;
+    margin:0;
+    padding:4%;
+}
+#freelancing{
+    padding:2%;
+    background-color: white;
+}
+#freelancing p{
+    font: 1.7rem 'Open Sans', sans-serif;
+    font-weight: 100;
+    margin:0 0 1% 0;
+}
+#listOfServices{
+    font-size:1.9rem;
+    padding:0 3%;
+}
+#listOfServices > li{
+    line-height: 1.45em;
+    list-style-type: square;
+}
+strong{
+    font: 2rem 'Open Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0;
+    text-decoration: underline;
+    padding-right: 0.5%;
+}
+#contactHeader{
+    background-color: #E8E907;
+    width: 25%;
+    text-shadow: white 1px 2px;
+}
+#contact{
+    font-size: 2rem;
+    background-color: #E8E907;
+    padding:2% 0;
+}
+#contact a{
+    color:white;
+    margin:0 0 2% 0;
+    font-size: 2.5rem;
+}
+#contact  a:hover{
+    color:rgb(208, 43, 226);
+}
+#contact h3{
+    margin:2% 0;
+    letter-spacing: 0.1em;
+}
+#socialIcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin:0;
+    padding: 0;
+}
+#socialIcons > h3{
+    margin:0 0 2% 0;
+    letter-spacing: 0.13em;
+}
+#contact ul{
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#contact ul > li{
+    /* /* list-style-type: none; */
+    display: inline-block;
+    width:31%;
+}
+#contact ul > li a{
+    width:100%;
+}
+#contact img{
+    width:60px;
+    height:60px;
+    /* margin-right:5%; */
+}
+.pop-out1
+{
+	transition: transform 1s;
+}
+
+.pop-out1:hover
+{
+	-ms-transform: scale(1.5, 1.5);
+	-webkit-transform: scale(1.5, 1.5);
+	transform: scale(1.5, 1.5);
+}
