@@ -10,7 +10,7 @@ html{
 body{
     background:no-repeat center url(bg2.png) fixed;
     background-color: black;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +20,7 @@ div{
     height:20em;
 }
 div:first-child{
-    height:60em;
+    height:70em;
 }
 section{
     width:80%;
@@ -207,8 +207,8 @@ $tablet:724px;
 $mobile:480px */
 @media all and (max-width:730px){
     section{
-        width:80%;
-        margin-top: 50%;
+        width:100%;
+        margin-top: 0;
         padding: 5%;
     }
     #freelancing p{
@@ -220,16 +220,18 @@ $mobile:480px */
 }
 @media all and (max-width:480px){
     body{
-        background-image: none;
-        background-color: black;
+        background-size: contain;
     }
     section{
         width:100%;
-        margin-top: 20%;
+        margin-top: 10%;
         padding: 5%;
     }
+    div{
+        height:0;
+    }
     #about{
-        margin-top: 10%;
+        margin-top: 0;
         width:90%;
     }
     #projects, #freelancing, #contact{
@@ -260,5 +262,10 @@ $mobile:480px */
         }
     h1{
         font-size: 3rem;
+    }
+    #contact img{
+        width:40px;
+        height:40px;
+        /* margin-right:5%; */
     }
 }
