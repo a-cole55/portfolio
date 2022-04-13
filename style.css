@@ -8,16 +8,14 @@ html{
     font-family: 'Bebas Neue', cursive;
 }
 body{
-    background-size: cover;
     background:no-repeat center url(bg2.png) fixed;
+    background-size: cover;
     -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
           width: 100%;
-          /* overflow: hidden; */
     background-color: black;
-    /* background-size: cover; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,7 +224,7 @@ $mobile:480px */
     }
 }
 @media all and (max-width:480px){
-    body{
+    /* body{
         background-image: none;
     }
     body:before{
@@ -244,7 +242,7 @@ $mobile:480px */
         top: 0;
         right: 0;
         bottom: 0;
-        left: 0;
+        left: 0; */
         /* background-size: contain;
         background-attachment: fixed; */
     }
