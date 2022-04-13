@@ -21,6 +21,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+#mobile{
+    display:none;
+}
 div{
     height:20em;
 }
@@ -224,9 +227,9 @@ $mobile:480px */
     }
 }
 @media all and (max-width:480px){
-    /* body{
+     /* body{
         background-image: none;
-    }
+    } */
     body:before{
         content: "";
         background-image: url(bg2.png);
@@ -236,16 +239,19 @@ $mobile:480px */
         background-repeat: no-repeat;
         background-position: center center;
         background-size: contain!important;
-        background-attachment: fixed!important;
+        background-attachment: scroll!important;
         z-index: 0;
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
-        left: 0; */
+        left: 0;}
         /* background-size: contain;
-        background-attachment: fixed; */
-    }
+        background-attachment: fixed; } */
+    /* #mobiile{
+        display:contents;
+        width:100%;
+    } */
     section{
         width:100%;
         margin-top: 10%;
