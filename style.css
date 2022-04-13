@@ -8,9 +8,16 @@ html{
     font-family: 'Bebas Neue', cursive;
 }
 body{
-    background:no-repeat center url(bg2.png) fixed;
-    background-color: black;
     background-size: cover;
+    background:no-repeat center url(bg2.png) fixed;
+    -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          width: 100%;
+          /* overflow: hidden; */
+    background-color: black;
+    /* background-size: cover; */
     display: flex;
     flex-direction: column;
     justify-content: center;
