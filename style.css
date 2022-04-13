@@ -227,11 +227,11 @@ $mobile:480px */
         background-image: url(bg2.png);
         -webkit-background-size: contain;
     -moz-background-size: contain;
-    -o-background-size: contain;
+    -o-background-size: contain!important;
         background-repeat: no-repeat;
         background-position: center center;
-        background-size: contain;
-        background-attachment: fixed;
+        background-size: contain!important;
+        background-attachment: fixed!important;
         z-index: 0;
         position: absolute;
         top: 0;
