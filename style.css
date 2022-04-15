@@ -31,16 +31,16 @@ div:first-child{
     height:70em;
 }
 section{
-    width:80%;
+    width:70%;
     background-color:#E8E907;
     /* margin-top: 40%; */
     opacity:.98;
-    padding: 5%;
+    padding: 2%;
 }
 #about{
     /* margin-top: 60%; */
     background-color: white;
-    padding:7% 10%;
+    padding:7%;
 
 }
 h1{
@@ -49,13 +49,13 @@ h1{
     /* padding-left: 20%; */
 }
 p{
- font-size: 2rem;
+ font-size: 2.5rem;
  line-height: 1.5em;
  margin-top: 5%;
 
 }
 #profilePic{
-    width:30%;
+    width:35%;
     border-radius: 200px;
     float:right;
     margin-left: 2%;
@@ -116,19 +116,19 @@ p{
     background-color: #E8E907;
     width:100%;
     margin:0;
-    padding:10%;
+    padding:7% 7% 7% 10%;
 }
 #freelancing{
     padding:2%;
     background-color: white;
 }
 #freelancing p{
-    font: 1.7rem;
+    font: 2.5rem;
     font-weight: 100;
     margin:0 0 1% 0;
 }
 #listOfServices{
-    font-size:1.9rem;
+    font-size:2.5rem;
     padding:0 3%;
 }
 #listOfServices > li{
@@ -136,13 +136,16 @@ p{
     list-style-type: square;
 }
 strong{
-    font: 2rem 'Open Sans', sans-serif;
+    font: 2.8rem 'Open Sans', sans-serif;
     font-weight: 100;
     letter-spacing: 0;
     text-decoration: underline;
     padding-right: 0.5%;
     color:black;
     text-shadow:white 1px 2px 4px;
+}
+footer{
+    width:100%;
 }
 #contactHeader{
     background-color: #E8E907;
@@ -152,7 +155,7 @@ strong{
 #contact{
     font-size: 2rem;
     background-color: #E8E907;
-    padding:2% 0;
+    padding:2% 0 0 0;
 }
 #contact a{
     color:white;
@@ -180,7 +183,7 @@ strong{
     letter-spacing: 0.13em;
 }
 #contact ul{
-    width:50%;
+    width:25%;
     display: flex;
     flex-direction: row;
     justify-content: center;
