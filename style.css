@@ -41,13 +41,19 @@ section{
     /* margin-top: 60%; */
     background-color: white;
     padding:7%;
-
 }
 h1{
     font: 4rem 'Open Sans', sans-serif;
     font-weight: 100;
+    animation:slide ease-out 4s;
     /* padding-left: 20%; */
 }
+@keyframes slide{
+    0%{margin-left:-800px;}
+    20%{margin-left:-800px;}
+    35%{margin-left:0px;}
+  100%{margin-left:0px;}
+  }
 p{
  font-size: 2.5rem;
  line-height: 1.5em;
