@@ -61,7 +61,7 @@ p{
 
 }
 #profilePic{
-    width:35%;
+    max-width:35%;
     border-radius: 200px;
     float:right;
     margin-left: 2%;
