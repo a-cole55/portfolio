@@ -45,7 +45,6 @@ section{
 h1{
     font: 4rem 'Open Sans', sans-serif;
     font-weight: 100;
-    animation:slide ease-out 3s;
     margin-bottom: 0;
 }
 #intro{
@@ -117,9 +116,9 @@ p{
 
 .pop-out:hover
 {
-	-ms-transform: scale(1.5, 1.5);
-	-webkit-transform: scale(1.5, 1.5);
-	transform: scale(1.5, 1.5);
+	-ms-transform: scale(1.25, 1.25);
+	-webkit-transform: scale(1.25, 1.25);
+	transform: scale(1.25, 1.25);
 }
 #consultingTitle{
     background-color: #E8E907;
