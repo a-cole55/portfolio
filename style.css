@@ -48,6 +48,9 @@ h1{
     animation:slide ease-out 3s;
     margin-bottom: 0;
 }
+#intro{
+    animation:slide ease-out 3s;
+}
 @keyframes slide{
     0%{margin-left:-800px;}
     20%{margin-left:-800px;}
