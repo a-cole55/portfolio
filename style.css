@@ -67,7 +67,7 @@ p{
     margin-left: 2%;
 }
 #projects{
-    padding:2%;
+    padding:2% 2% 0 2%;
     background-color: white;
 }
 .project{
@@ -103,7 +103,6 @@ p{
 }
 #projectsTitle{
     margin-left: 2%;
-    background-color: #E8E907;
     width: 23%;
     text-shadow: white 1px 2px;
 }
@@ -119,19 +118,18 @@ p{
 	transform: scale(1.25, 1.25);
 }
 #consultingTitle{
-    background-color: #E8E907;
     width: 60%;
     text-shadow: white 1px 2px;
     margin-bottom: 2%;
 }
 .background{
-    background-color: #E8E907;
+    background-color: white;
     width:100%;
     margin:0;
     padding:5%;
 }
 .background1{
-    background-color: #E8E907;
+    background-color: white;
     width:100%;
     margin:0;
     padding:5% 5% 6% 7%;
