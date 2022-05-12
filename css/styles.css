@@ -4168,6 +4168,9 @@ img.u-pull-left {
 .contact-list a {
     color : white;
 }
+.contact-list a:hover {
+    color : #8F16C9;
+}
 
 .contact-list li {
     padding-left : 0;
