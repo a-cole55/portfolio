@@ -765,7 +765,7 @@ textarea {
 
 .block-lg-one-third>.column {
     flex  : none;
-    width : 33.33333%;
+    width :33.33%;
 }
 
 .block-lg-one-half>.column {
